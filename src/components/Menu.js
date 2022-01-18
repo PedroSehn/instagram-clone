@@ -21,6 +21,5 @@ function Menu(){
     )
 }
 
-//TODO ENTENDER PORQUE A BORDA DE STORYES NAO APARECE
 
 export default Menu;
