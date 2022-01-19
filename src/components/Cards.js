@@ -6,6 +6,7 @@ import Stories from './Stories';
 function Cards(){
     return (
         <div className="cards">
+            <>cards</>
             <Stories/>
         </div>
     )
