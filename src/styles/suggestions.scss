@@ -1,24 +1,61 @@
 @import "/src/styles/variables";
 
+.sidebar {
+    .profile{
+        a {
+            font-weight: 600;
+            font-size: 1em;
+        }
+    }
+    .textContainer{
+        .accountName {
+            font-weight: 600;
+            font-size: 1.09em;
+        }
+    }
+
+    
+}
+
+
+
 .suggestions {
     margin-top: 1.25em;
 
     .titleContainer {
         display: flex;
         justify-content: space-between;
-        font-size:0.8em;
-        font-weight: 500;
+        font-weight: 600;
+        font-size: 0.9em ;
         color: $font-color-secondary;
         margin-bottom: 1.25em;
-
+        
         title {
             min-width: 200px;
+            
         }
 
         a {
             width: auto;
             text-align: right;
             color: black;
+            font-weight: 550;
+        }
+    }
+
+    .profile {
+
+        .textContainer{
+
+            .accountName {
+                font-weight: 600;
+                font-size: 1.09em;
+            }
+            
+            .caption{
+                font-size: 1em;
+            }
+            
         }
     }
 }

@@ -8,7 +8,7 @@ function Story(){
    let accoutName = users[Math.floor(Math.random() * users.length)].username;
    
     if(accoutName.length > 10){
-        accoutName = accoutName.substring(0, 13) + '...';
+        accoutName = accoutName.substring(0, 10) + '...';
     }
 
     return(
