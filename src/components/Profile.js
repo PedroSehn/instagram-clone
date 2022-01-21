@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/profile.scss';
 import ProfileIcon from './ProfileIcon';
-// import users from '../data/users';
+import users from '../data/users';
 import PropTypes from 'prop-types';
 
 function Profile(props){
@@ -16,6 +16,10 @@ function Profile(props){
         image,
     } = props;
     
+    let accountName = username
+    ? username
+    : users[Math.floor(Math.random() * users.length)].username;
+
     return (
     <div className="profile">
         <ProfileIcon 
@@ -23,9 +27,9 @@ function Profile(props){
         storyBorder={ storyBorder }
         image={ image }
         />
-        {(username || caption) && !hideAccountName && (
+        {(accountName || caption) && !hideAccountName && (
             <div className="textContainer">
-                <span className="accountName">{ username }</span>
+                <span className="accountName">{ accountName }</span>
                 <spam className={`caption ${captionSize}`}>{ caption }</spam>
             </div>
         )}
