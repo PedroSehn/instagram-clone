@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Menu.scss';
+import profileImage from '../images/profile-image.jpeg';
 import { ReactComponent as Home } from '../images/home-w.svg';
 import { ReactComponent as Chat } from '../images/chat-w.svg';
 import { ReactComponent as Explore } from '../images/explore-w.svg';
@@ -16,7 +17,7 @@ function Menu(){
             <NewPost className="icon" />
             <Explore className="icon" />
             <Activity className="icon" />
-            <ProfileIcon iconSize="small" image = { '' }  storyBorder={true}/>
+            <ProfileIcon iconSize="small" image = { profileImage }  storyBorder={true}/>
         </div>
     )
 }

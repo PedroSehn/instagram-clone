@@ -7,7 +7,7 @@ function Stories(){
     return (
         <div className="stories"> 
             <HorizontalScroll className="scroll" reverseScroll={ true }>
-                <Story />
+            <Story />
                 <Story />
                 <Story />
                 <Story />

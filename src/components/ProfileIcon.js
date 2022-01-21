@@ -1,6 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../styles/profileIcon.scss';
-
 
 function ProfileIcon(props) {
     const { iconSize, storyBorder, image } = props;
@@ -22,3 +22,9 @@ function ProfileIcon(props) {
 }
 
 export default ProfileIcon;
+
+ProfileIcon.propTypes = {
+    iconSize: PropTypes.string,
+    storyBorder: PropTypes.bool,
+    image: PropTypes.path,
+  };

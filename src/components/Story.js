@@ -5,10 +5,10 @@ import ProfileIcon from './ProfileIcon';
 import users from '../data/users';
 
 function Story(){
-   let accoutName = users[Math.floor(Math.random() * users.length)].name;
+   let accoutName = users[Math.floor(Math.random() * users.length)].username;
    
     if(accoutName.length > 10){
-        accoutName = accoutName.substring(0, 10) + '...';
+        accoutName = accoutName.substring(0, 13) + '...';
     }
 
     return(
