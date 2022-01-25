@@ -99,6 +99,102 @@ const users = [
       name: "Bugs Bunny",
       username: "Albuquerque",
     },
+    {
+      id: 20,
+      name: "Bugs Bunny",
+      username: "Albuquerque",
+    },
+    {
+      id: 21,
+      name: "londo_rum",
+      username: "tico.teco",
+    },
+    {
+      id: 22,
+      name: "Everson Zoio",
+      username: "hardcore_chal",
+    },
+    {
+      id: 23,
+      name: "Caique Alves",
+      username: "banana.eater",
+    },
+    {
+      id: 24,
+      name: "Luke Skywalker",
+      username: "_blueLightsaber_",
+    },
+    {
+      id: 25,
+      name: "Sonic Headhog",
+      username: "blue.rush",
+    },
+    {
+      id: 26,
+      name: "Alngela Rogowski",
+      username: "red_hot",
+    },
+    {
+      id: 27,
+      name: "Alek Torres",
+      username: "kingOfTheHill",
+    },
+    {
+      id: 28,
+      name: "Alex Tompson",
+      username: "dared_devil67",
+    },
+    {
+      id: 29,
+      name: "Doglas Adams",
+      username: "Zaphod",
+    },
+    {
+      id: 30,
+      name: "Bi Han",
+      username: "Subzero45",
+    },
+    {
+      id: 31,
+      name: "Peter Parker",
+      username: "gigSky",
+    },
+    {
+      id: 32,
+      name: "Bugs Bunnyrson",
+      username: "appleuser",
+    },
+    {
+      id: 33,
+      name: "Bunny Allen",
+      username: "PutsClax",
+    },
+    {
+      id: 34,
+      name: "Juliana Sehn",
+      username: "kinney",
+    },
+    {
+      id: 35,
+      name: "Albert Einsten",
+      username: "RobertEinsten",
+    },
+    {
+      id: 36,
+      name: "Stefen Strange",
+      username: "Tony_hawkings",
+    },
+    {
+      id: 38,
+      name: "Ted Thombson",
+      username: "ban_anaaa_",
+    },
+    {
+      id: 39,
+      name: "Flex Box",
+      username: "display_flex",
+    },
+
   ];
   
   export default users;
