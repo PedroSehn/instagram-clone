@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/instagram-clone/static/css/main.17657576.css",
+    "main.js": "/instagram-clone/static/js/main.72d0499b.js",
+    "static/media/search-logo.png": "/instagram-clone/static/media/search-logo.f2d70afd1ebdca42594e.png",
+    "static/media/new-post-w.svg": "/instagram-clone/static/media/new-post-w.1351335be497eda8fbecd3f0ada26f0b.svg",
+    "static/media/activity-w.svg": "/instagram-clone/static/media/activity-w.bb109b29c1ca6e8e7a185b6418bc42ae.svg",
+    "index.html": "/instagram-clone/index.html",
+    "static/media/chat-w.svg": "/instagram-clone/static/media/chat-w.3bd7a160731a932d096c907c1e7c775f.svg",
+    "static/media/explore-w.svg": "/instagram-clone/static/media/explore-w.f37f76d68a13f5645e2a32139ddcf50a.svg",
+    "static/media/emoji-button.svg": "/instagram-clone/static/media/emoji-button.272d072810483052b2bdaeac76933184.svg",
+    "static/media/inbox.svg": "/instagram-clone/static/media/inbox.a9facdef8db1505aa6dd7dc79ebab524.svg",
+    "static/media/home-w.svg": "/instagram-clone/static/media/home-w.6a978a26c48bc672716e7ea28d35ddd3.svg",
+    "static/media/bookmark.svg": "/instagram-clone/static/media/bookmark.8b15434754443adc68ea6f80d5fa825f.svg",
+    "static/media/comment.svg": "/instagram-clone/static/media/comment.5fb9ade06a5f7b8cf9c0ca78f0f2595d.svg",
+    "static/media/dots.svg": "/instagram-clone/static/media/dots.296d3befa2f59a32d02921d3b05e7e7f.svg",
+    "main.17657576.css.map": "/instagram-clone/static/css/main.17657576.css.map",
+    "main.72d0499b.js.map": "/instagram-clone/static/js/main.72d0499b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17657576.css",
+    "static/js/main.72d0499b.js"
+  ]
+}
