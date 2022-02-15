@@ -33,7 +33,7 @@ function Profile(props){
                 <spam className={`caption ${captionSize}`}>{ caption }</spam>
             </div>
         )}
-        <a href='/nstagram-clone/'>{urlText}</a>
+        <a href='https://pedrosehn.github.io/instagram-clone/'>{urlText}</a>
     </div>)
 }
 
